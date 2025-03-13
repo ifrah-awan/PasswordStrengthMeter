@@ -58,7 +58,7 @@ if password:
     st.write(f"*🔒 Strength Level:* {strength}")
 
     if feedback:
-        st.subheader("💡 Suggestions to Improve Yoenerated_password(ur Password:")
+        st.subheader("💡 Suggestions to Improve Generated Password:")
         for tip in feedback:
             st.write(f"- {tip}")
     #initalizing session state for generated password if not set
